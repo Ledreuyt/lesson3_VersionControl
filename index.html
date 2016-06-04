@@ -77,55 +77,71 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/git logo.png">
             <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+                <span class="text-muted">Git History</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git was born out of Linux. Linux is an open source operating system that people would work on together.
+            They originally used a program called BitKeeper for their software sharing needs. However, this opportunity disappeared when the company behind BitKeeper fell apart.
+            Thus, they were no longer able to use the software for free. This made the creator of Linux, whose name was Linus Torvalds, create and develop his own tool to replace BitKeeper.
+            To create the replacement program they took several lessons that they learned while using BitKeeper. They knew that they needed speed, easy usability, able to handle large loads,
+            and be able to have many parallel branches. This is how Git was born.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/ssh.png">
             <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+                <span class="text-muted">Setting Up a Git Repository</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Setting up a Git repository is the first thing you need to do to get ready to use Git. You start out by initializing the repositroy by using the command
+            "git init" which creates a local repository. You can also create a repository by cloning an existing Git repository. You do this by using the command "git clone" followed by
+            the link of the repository you are trying to clone. You can transfer in multiple ways, either by using https or by using SSH protocol. SSH is more secure but the most common is 
+            probably https. This is the basics o setting up a Git repository.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-responsive pull-right" src="images/areas.png">
             <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+                <span class="text-muted">Uploading Files to Git</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git has 3 different stages it uses to store files. There is the local area which has the files you are editing that have not been uploaded to the staging area yet.
+            There is also the staging area which is where you add files to but have not yet commited them to the Git server yet. Finally, there is the Git repository which is where the final 
+            version of the file is stored. The loal stage is where all the editing takes place. After you are finished editing you add them to the server and they are there watiing but until you commit them
+            they are not yet stored in the server. Once they are commited it is very difficult to lose track of the files because of how well Git handles duplicates and edits, even from multiple users.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/overlapping pages.png">
             <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+                <span class="text-muted">Handling Multiple Users</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">One of the many reasons that Git is so widely used is the fact that it makes editing a single files with multiple authors or developers easy. If multiple people
+            are editing the same file at the same time it will not simply overwrite the previous file. It instead creates a new file with the changes made and when both developers are finished 
+            editing their document they can be merged together to make one document and thus not lose any changes and if need be they can revert to a previous version of the file  becaus there are logs
+            kept of when the files were edited and by whom.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-responsive pull-right" src="images/command_line.jpg">
             <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+                <span class="text-muted">Git Commands</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">There are many Git commands. The basic commands are "git commit" git add" "git branch" and "git checkout". "git commit" is teh command that basically saves your files and uploads them to the server.
+            The files are not safe on the server until you commit them. They are basically in limbo, on your local machine but not yet commited to the Git server. "git branch" is a command that allows you 
+            to name the different branches of your files. You enter "git branch -d "name"" where name is what you want the name of the branch to be. Finally, "git checkout" is basically a command that
+            allows you to look at the different branches, or isolated files taht are on the server.</p>
         </div>
 
         <hr class="featurette-divider">
